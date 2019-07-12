@@ -1,0 +1,49 @@
+
+@font-face {font-family: "HelveticaNeueBold";
+    font-display: swap;
+    src: url("../fonts/HelveticaNeueCyr-Bold.eot");
+    src: url("../fonts/HelveticaNeueCyr-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HelveticaNeueCyr-Bold.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueCyr-Bold.woff") format("woff"),
+    url("../fonts/HelveticaNeueCyr-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {font-family: "NimbusSansTBold";
+    display: swap;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/NimbusSansTBoldCondensed.eot");
+    src: url("../fonts/NimbusSansTBoldCondensed.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/NimbusSansTBoldCondensed.woff2") format("woff2"),
+    url("../fonts/NimbusSansTBoldCondensed.woff") format("woff"),
+    url("../fonts/NimbusSansTBoldCondensed.ttf") format("truetype"),
+     url("../fonts/NimbusSansTBoldCondensed.svg#NimbuSanTBolCon") format("svg");
+}
+@font-face {font-family: "HelveticaNeue55Roman";
+    display: swap;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/HelveticaNeue55Roman.eot");
+    src: url("../fonts/HelveticaNeue55Roman.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HelveticaNeue55Roman.woff2") format("woff2"),
+    url("../fonts/HelveticaNeue55Roman.woff") format("woff"),
+    url("../fonts/HelveticaNeue55Roman.ttf") format("truetype"),
+    url("../fonts/HelveticaNeue55Roman.svg#Helvetica Neue") format("svg");
+}
+
+@font-face {font-family: "HelveticaNeueUltraLight";
+    display: swap;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/HelveticaNeueUltraLight.eot");
+    src: url("../fonts/HelveticaNeueUltraLight.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HelveticaNeueUltraLight.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueUltraLight.woff") format("woff"),
+    url("../fonts/HelveticaNeueUltraLight.ttf") format("truetype"),
+    url("../fonts/HelveticaNeueUltraLight.svg#Helvetica Neue") format("svg");
+}
+$font-bold1: "HelveticaNeueBold", sans-serif;
+$font-bold2: "NimbusSansTBold", sans-serif;
+$font1: "HelveticaNeue55Roman", sans-serif;
+$font2: "HelveticaNeueUltraLight", sans-serif;

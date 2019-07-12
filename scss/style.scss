@@ -1,0 +1,52 @@
+@import "fonts";
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+              box-sizing: border-box;
+}
+:root{
+	font-size: 10px;
+}
+body{
+	overflow-x: hidden;
+}
+.wrapper{
+	min-width: 320px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-family: $font-bold1;
+	color: #dddfe1;	
+	overflow-x: hidden;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+h1, 
+h2,
+h3,
+h4{
+	font-weight: normal;
+}
+.container{
+	margin: 0 auto;
+	max-width: 1180px;
+	width: 100%;
+	padding: 3rem 4rem 7rem;
+}
+
+@media screen and (max-width: 768px){
+:root{
+	font-size: 8px;
+}
+}
+@media screen and (max-width: 550px){
+.container {
+	padding: 3rem 2rem 7rem;
+}
+}
+@import "header";
+@import "progress-bar-block";

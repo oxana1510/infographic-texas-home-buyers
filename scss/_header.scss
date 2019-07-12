@@ -1,0 +1,50 @@
+.logo{
+	position: relative;
+	z-index: 9;
+	padding: 0 2rem 0;
+	background: #e8ede9;
+	border-radius: 2rem 2rem 0 0;
+	a{
+		position: relative;
+		top: 2.5rem;
+		padding-bottom: 2rem;
+		z-index: 3;
+		display: block;
+		text-align: center;	
+		img{
+			max-width: 43.1rem;
+			width: 100%;
+		}
+	}
+}
+.bg-line{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    .line-left,
+    .line-right{
+    	position: absolute;
+	    background: #e8ede9;
+	    width: 50.01%;
+	    height: 7rem;
+    }
+    .line-left{
+		-webkit-transform: skewY(5deg);
+		    -ms-transform: skewY(5deg);
+		        transform: skewY(5deg);
+		-webkit-transform-origin: 135%;
+		    -ms-transform-origin: 135%;
+		        transform-origin: 135%;
+	}
+	.line-right{
+		right: 0;
+		-webkit-transform: skewY(-5deg);
+		    -ms-transform: skewY(-5deg);
+		        transform: skewY(-5deg);
+		-webkit-transform-origin: -35%;
+		    -ms-transform-origin: -35%;
+		        transform-origin: -35%;
+	}
+}
